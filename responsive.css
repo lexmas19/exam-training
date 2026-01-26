@@ -1,0 +1,48 @@
+@media (max-width: 992px) {
+  header {
+    padding: 40px 24px 0 24px;
+  }
+
+  #burger {
+    display: flex;
+  }
+
+  nav > ul {
+    display: none;
+  }
+
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .top {
+    flex-direction: column-reverse;
+    align-items: end;
+    padding-left: 24px;
+  }
+  .top > img {
+    width: 327px;
+  }
+
+  .top-left {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .top-left > h1 {
+    font-size: 42px;
+    line-height: 48px;
+    letter-spacing: -1.05px;
+    margin-top: 37px;
+  }
+  .top-left > p {
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 15px;
+    margin-bottom: 32px;
+  }
+}
