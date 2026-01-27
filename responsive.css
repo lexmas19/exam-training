@@ -1,5 +1,6 @@
 @media (max-width: 992px) {
   header {
+    align-items: center;
     padding: 40px 24px 0 24px;
   }
 
@@ -7,7 +8,7 @@
     display: flex;
   }
 
-  nav > ul {
+  nav>ul {
     display: none;
   }
 
@@ -21,9 +22,7 @@
     flex-direction: column-reverse;
     align-items: end;
     padding-left: 24px;
-  }
-  .top > img {
-    width: 327px;
+    margin-top: 29px;
   }
 
   .top-left {
@@ -31,18 +30,51 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-right: 24px;
   }
 
-  .top-left > h1 {
+  .top>img {
+    width: 327px;
+  }
+
+  .top-left>h1 {
     font-size: 42px;
     line-height: 48px;
-    letter-spacing: -1.05px;
+    letter-spacing: -1.05;
     margin-top: 37px;
   }
-  .top-left > p {
+
+  .top-left>P {
     font-size: 18px;
     line-height: 30px;
     margin-top: 15px;
     margin-bottom: 32px;
+  }
+
+  form {
+    flex-direction: column;
+    padding: 24px;
+  }
+
+  #search {
+    width: 327px;
+    padding: 6px 16px;
+  }
+
+  #search-btn {
+    padding: 11px 94px;
+  }
+
+  .cards {
+    flex-direction: column;
+  }
+
+  .card {
+    text-align: center;
+  }
+
+  .circle {
+    left: 50%;
+    transform: translate(-50%);
   }
 }
