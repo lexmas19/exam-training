@@ -1,74 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link rel="stylesheet" href="./style.css" />
-  <link rel="stylesheet" href="./responsive.css" />
-</head>
+  <body>
+    <header>
+      <div class="logo"><img src="./images/Shortly.svg" alt="" /></div>
+      <nav>
+        <ul>
+          <div class="left">
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Resources</a></li>
+          </div>
+          <div class="right">
+            <li><a href="#">Login</a></li>
+            <li><a href="#" class="sign-up">Sign Up</a></li>
+          </div>
+        </ul>
+        <img id="burger" src="./images/Group.svg" alt="" />
+      </nav>
+    </header>
+    <main>
+      <section class="top">
+        <div class="top-left">
+          <h1>More than just shorter links</h1>
+          <p>Build your brand’s recognition and get detailed insights on how your links are performing.</p>
+          <a href="#" class="sign-up">Get Started</a>
+        </div>
+        <img src="./images/working_with_computer.svg" alt="" />
+        <form>
+          <input type="text" placeholder="Shorten a link here..." id="search" />
+          <input type="button" value="Shorten It!" id="search-btn" />
+        </form>
+      </section>
 
-<body>
-  <header>
-    <div class="logo"><img src="./images/Shortly.svg" alt="" /></div>
-    <nav>
-      <ul>
-        <div class="left">
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Pricing</a></li>
-          <li><a href="#">Resources</a></li>
+      <section class="mid">
+        <h2>Advanced Statistics</h2>
+        <p>Track how your links are performing across the web with our advanced statistics dashboard.</p>
+        <div class="cards">
+          <div class="card card-1">
+            <div class="circle"><img src="./images/Combined Shape.svg" alt="" /></div>
+            <h3>Brand Recognition</h3>
+            <p>Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil confidence in your content.</p>
+          </div>
+          <div class="card card-2">
+            <div class="circle"><img src="./images/card2.svg" alt="" /></div>
+            <h3>Detailed Records</h3>
+            <p>Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.</p>
+          </div>
+          <div class="card card-3">
+            <div class="circle"><img src="./images/card3.svg" alt="" /></div>
+            <h3>Fully Customizable</h3>
+            <p>Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.</p>
+          </div>
         </div>
-        <div class="right">
-          <li><a href="#">Login</a></li>
-          <li><a href="#" class="sign-up">Sign Up</a></li>
-        </div>
-      </ul>
-      <img id="burger" src="./images/Group.svg" alt="" />
-    </nav>
-  </header>
-  <main>
-    <section class="top">
-      <div class="top-left">
-        <h1>More than just shorter links</h1>
-        <p>Build your brand’s recognition and get detailed insights on how your links are performing.</p>
+      </section>
+
+      <section class="bot">
+        <h2>Boost your links today</h2>
         <a href="#" class="sign-up">Get Started</a>
+      </section>
+    </main>
+
+    <footer>
+      <div><img src="./images/logofoot.svg" alt="" /></div>
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="#" class="nav-heading">Features</a></li>
+          <li><a href="#">Link Shortening</a></li>
+          <li><a href="#">Branded Links</a></li>
+          <li><a href="#">Analytics</a></li>
+        </ul>
+        <ul>
+          <li><a href="#" class="nav-heading">Resources</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Developers</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+        <ul>
+          <li><a href="#" class="nav-heading">Company</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Our Team</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="social-icons">
+        <img src="./images/fb.svg" alt="" />
+        <img src="./images/tw.svg" alt="" />
+        <img src="./images/pin.svg" alt="" />
+        <img src="./images/inst.svg" alt="" />
       </div>
-      <img src="./images/working_with_computer.svg" alt="" />
-      <form>
-        <input type="text" placeholder="Shorten a link here..." id="search" />
-        <input type="button" value="Shorten It!" id="search-btn" />
-      </form>
-    </section>
-
-    <section class="mid">
-      <h2>Advanced Statistics</h2>
-      <p>Track how your links are performing across the web with our advanced statistics dashboard.</p>
-      <div class="cards">
-        <div class="card card-1">
-          <div class="circle"><img src="./images/Combined Shape.svg" alt=""></div>
-          <h3>Brand Recognition</h3>
-          <p>Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil
-            confidence in your content.</p>
-        </div>
-        <div class="card card-2">
-
-          <div class="circle"><img src="./images/card2.svg" alt=""></div>
-          <h3>Detailed Records</h3>
-          <p>Gain insights into who is clicking your links. Knowing when and where people engage with your content
-            helps inform better decisions.</p>
-        </div>
-        <div class="card card-3">
-
-          <div class="circle"><img src="./images/card3.svg" alt=""></div>
-          <h3>Fully Customizable</h3>
-          <p>Improve brand awareness and content discoverability through customizable links, supercharging audience
-            engagement.</p>
-
-        </div>
-      </div>
-    </section>
-  </main>
-</body>
-
+    </footer>
+  </body>
 </html>
